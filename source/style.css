@@ -1323,9 +1323,11 @@ img,figure{
 
 /*banner type 1*/
 
-
+.cameraContent {
+    background-color: rgba(0,0,0,0.2);
+}
 .banner-type1 .camera_caption:first-child{
-    color: #fff;
+    color: #f79323;
     font-family: lato-black;
     font-size: 72px;
     line-height: 72px;
@@ -1335,7 +1337,7 @@ img,figure{
     text-align: left;
 }
 .banner-type1 .camera_caption:first-child::before{
-    background: #fff;
+    background: #f05127;
     bottom: 0px;
     content: "";
     height: 1px;
@@ -1376,6 +1378,14 @@ img,figure{
     left: 0px;
 }
 
+.type1-features.uk-flex {
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;    
+    background-color: rgba(240,81,39,0.2);
+}
 
 .tp1-features-icon{
     background: rgba(255,255,255,.10);
@@ -1395,7 +1405,7 @@ img,figure{
     color: #fff;
     font-family: "Lato",sans-serif;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 22px;
 }
 .type1-scroll-down{
