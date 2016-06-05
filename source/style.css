@@ -59,6 +59,8 @@ Developed By : ABDUS SALAM
 |
 --------------------------------------------------------------------------------------*/
 
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
 /*======================================================================================================
 
                                =======Start  Reset css====
@@ -66,7 +68,7 @@ Developed By : ABDUS SALAM
 ======================================================================================================*/
 
 /*----------------------------------------------------------------
-           ------Start Bsic Style------
+           ------Start Basic Style------
 ----------------------------------------------------------------*/
 body{
     margin: 0px;
@@ -846,7 +848,7 @@ img,figure{
     display: block;
     font-family: "Lato",sans-serif;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 128px;
     margin-right: 23px;
     position: relative;
@@ -1328,7 +1330,7 @@ img,figure{
 }
 .banner-type1 .camera_caption:first-child{
     color: #f79323;
-    font-family: lato-black;
+    font-family: 'Audiowide', cursive;
     font-size: 72px;
     line-height: 72px;
     padding-top: 259px;
